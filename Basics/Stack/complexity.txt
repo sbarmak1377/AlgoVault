@@ -1,0 +1,5 @@
+Push Time Complexity: O(n)
+Pop Time Complexity: O(1)
+Note: In a linked list implementation, if you don’t maintain a tail pointer
+(which points to the last element, as in my implementation), the complexity will be O(n).
+Space Complexity: O(n)
