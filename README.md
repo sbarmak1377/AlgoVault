@@ -11,8 +11,6 @@ This checklist mirrors the categories and items from the University of San Franc
 - [x] Stack — Linked List implementation
 - [ ] Queue — Array implementation
 - [ ] Queue — Linked List implementation
-- [ ] List — Array implementation *(cpp version only)*
-- [ ] List — Linked List implementation *(cpp version only)*
 
 ## Recursion
 - [ ] Factorial
@@ -78,7 +76,7 @@ This checklist mirrors the categories and items from the University of San Franc
 
 ## Others
 - [ ] Disjoint Sets (Union–Find)
-- [ ] Huffman Coding *(cpp version only)*
+- [ ] Huffman Coding
 
 ---
 
