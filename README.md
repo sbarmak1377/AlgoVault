@@ -14,8 +14,8 @@ This checklist mirrors the categories and items from the University of San Franc
 
 ## Recursion
 - [x] Factorial
-- [ ] Reverse a String
-- [ ] N-Queens Problem
+- [x] Reverse a String
+- [x] N-Queens Problem
 
 ## Indexing / Search Structures
 - [ ] Binary & Linear Search (of sorted list)
