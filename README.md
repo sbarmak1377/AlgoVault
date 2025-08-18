@@ -9,8 +9,8 @@ This checklist mirrors the categories and items from the University of San Franc
 ## Basics
 - [x] Stack — Array implementation
 - [x] Stack — Linked List implementation
-- [ ] Queue — Array implementation
-- [ ] Queue — Linked List implementation
+- [x] Queue — Array implementation
+- [x] Queue — Linked List implementation
 
 ## Recursion
 - [ ] Factorial
