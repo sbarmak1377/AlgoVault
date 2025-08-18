@@ -13,7 +13,7 @@ This checklist mirrors the categories and items from the University of San Franc
 - [x] Queue — Linked List implementation
 
 ## Recursion
-- [ ] Factorial
+- [x] Factorial
 - [ ] Reverse a String
 - [ ] N-Queens Problem
 
