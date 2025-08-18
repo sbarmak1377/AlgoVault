@@ -1,0 +1,14 @@
+1. Factorial
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+2. Reverse String
+Time Complexity: O(n^2) -> O(n + (n-1) + (n-2) + ... + 1)
+Space Complexity: O(n^2)
+Note: You can reduce both complexities to O(n) if you make str a list of character and recursively swap them using 2 pointers.
+This solution is provided in v3 function using chatgpt.
+
+3. N Queen Problem
+Time Complexity: O(n * n!) -> n! for detecting solutions for each row(from n to 1) & n for checking former rows collision
+Space Complexity: O(k.n) -> k is number of solutions
+Note: Time Complexity can be reduced to O(n!). The alternative solution for that was provided using chatgpt in file.
