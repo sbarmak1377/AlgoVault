@@ -1,0 +1,48 @@
+1. Binary Search Tree (Unbalanced)
+Time Complexity: Insert/Search/Delete -> O(log n) average, O(n) worst
+Space Complexity: O(n)
+
+2. AVL Tree
+Time Complexity: Insert/Search/Delete -> O(log n) (guaranteed balanced)
+Space Complexity: O(n)
+
+3. Red-Black Tree
+Time Complexity: Insert/Search/Delete -> O(log n)
+Space Complexity: O(n)
+
+4. Splay Tree
+Time Complexity: Insert/Search/Delete -> O(log n) amortized, O(n) worst-case single operation
+Space Complexity: O(n)
+
+5. Hash Table (Chaining)
+Time Complexity: Insert/Search/Delete -> O(1) average, O(n) worst (if many collisions)
+Space Complexity: O(n + m) where m is number of buckets
+
+6. Hash Table (Open Addressing)
+Time Complexity: Insert/Search/Delete -> O(1) average, O(n) worst (clustered collisions)
+Space Complexity: O(m) where m is table size
+
+7. Hash Table (Bucketed)
+Time Complexity: Insert/Search/Delete -> O(1) average, O(n) worst (depending on bucket implementation)
+Space Complexity: O(n + m)
+
+8. Trie
+Time Complexity: Insert/Search/Delete -> O(k) where k = key length
+Space Complexity: O(n * k) (n = number of keys, k = average key length)
+
+9. Radix Tree (Compressed Trie)
+Time Complexity: Insert/Search/Delete -> O(k) where k = key length
+Space Complexity: O(n * k) but more compact than Trie (compresses chains)
+
+10. Ternary Search Tree
+Time Complexity: Insert/Search/Delete -> O(k) where k = key length
+Space Complexity: O(n * k)
+
+11. B-Tree (order t)
+Time Complexity: Insert/Search/Delete/Search -> O(log n)
+Space Complexity: O(n)
+
+12. B+ Tree (order t)
+Time Complexity: Insert/Search/Delete -> O(log n)
+Space Complexity: O(n)
+Note: Leaf nodes are linked for efficient range queries

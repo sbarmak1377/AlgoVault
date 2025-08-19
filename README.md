@@ -18,19 +18,19 @@ This checklist mirrors the categories and items from the University of San Franc
 - [x] N-Queens Problem
 
 ## Indexing / Search Structures
-- [ ] Binary & Linear Search (of sorted list)
-- [ ] Binary Search Tree (BST)
-- [ ] AVL Tree (balanced BST)
-- [ ] Red–Black Tree
-- [ ] Splay Tree
-- [ ] Hash Table — Open Hashing (Chaining / Closed Addressing)
-- [ ] Hash Table — Closed Hashing (Open Addressing)
-- [ ] Hash Table — Open Addressing with Buckets
-- [ ] Trie (Prefix Tree)
-- [ ] Radix Tree (Compact Trie)
-- [ ] Ternary Search Tree (Trie with BST of children)
-- [ ] B-Tree
-- [ ] B+ Tree
+- [x] Binary & Linear Search (of sorted list)
+- [x] Binary Search Tree (BST)
+- [x] AVL Tree (balanced BST)
+- [x] Red–Black Tree
+- [x] Splay Tree
+- [x] Hash Table — Open Hashing (Chaining / Closed Addressing)
+- [x] Hash Table — Closed Hashing (Open Addressing)
+- [x] Hash Table — Open Addressing with Buckets
+- [x] Trie (Prefix Tree)
+- [x] Radix Tree (Compact Trie)
+- [x] Ternary Search Tree (Trie with BST of children)
+- [x] B-Tree
+- [x] B+ Tree
 
 ## Sorting
 - [ ] Bubble Sort
@@ -80,7 +80,6 @@ This checklist mirrors the categories and items from the University of San Franc
 
 ---
 
-### How to Use
-- Duplicate this checklist into your issue tracker or keep it here.
-- Check items off as you complete implementations and tests.
-- Optionally, add links to your implementation and test files next to each item.
+### Repository Usage
+- clone repository and try to understand how each data structure/algorithm works.
+- you can try to implement your own data structure based on your needs with these codes as reference.

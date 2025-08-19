@@ -1,0 +1,68 @@
+Explanations of Data Structures
+-------------------------------
+
+1. Binary Search Tree (BST)
+Logic: Organizes keys in a binary tree such that for every node:
+- Left subtree has smaller keys
+- Right subtree has larger keys
+Why: Makes searching faster than scanning a list.
+Insert/Search/Delete: Done by traversing left/right based on comparisons.
+Problem: Can become skewed (like a linked list) if keys are inserted in sorted order.
+
+2. AVL Tree
+Logic: A self-balancing BST. Maintains a balance factor (height difference between left and right child ≤ 1).
+Why: Guarantees O(log n) height, so operations remain efficient.
+How: After insert/delete, tree may rotate (single/double rotations) to restore balance.
+
+3. Red-Black Tree
+Logic: Another self-balancing BST. Nodes are colored red or black with rules to enforce balance (e.g., root is black, no two reds adjacent, equal black height on all paths).
+Why: Simpler, fewer rotations than AVL, good for frequent insertions/deletions.
+How: Uses recoloring and rotations during insert/delete. Guarantees logarithmic height.
+
+4. Splay Tree
+Logic: A BST that moves recently accessed elements to the root by rotations (splaying).
+Why: Optimizes for repeated access to the same elements (locality of reference).
+Cost: Single operations can be O(n), but amortized over many operations is O(log n).
+
+5. Hash Table (Chaining)
+Logic: Uses a hash function to map keys to buckets. Each bucket is a list (or linked list).
+Why: Expected O(1) lookup/insert.
+How: Collisions (different keys mapping to same bucket) are resolved by chaining items inside the bucket.
+
+6. Hash Table (Open Addressing)
+Logic: Stores all keys directly in the table (no linked lists). If collision happens, probe (linear, quadratic, or double hashing) to find the next open slot.
+Why: Saves memory (no extra lists).
+How: Deletion is tricky (need “tombstones” to mark deleted spots).
+
+7. Hash Table (Bucketed)
+Logic: Each slot stores a small array (bucket) of items instead of a list.
+Why: Improves cache performance compared to chaining. Works well with bounded bucket sizes.
+How: If bucket overflows, might resize or fallback to chaining.
+
+8. Trie
+Logic: A tree where each node represents a character of the stored strings. Paths from root to leaf spell out words.
+Why: Efficient prefix searching (autocomplete, spell-checking).
+How: Insert by following/creating character edges; search by traversing characters.
+
+9. Radix Tree (Compressed Trie)
+Logic: Optimized Trie by compressing chains of single-child nodes into one edge labeled with multiple characters.
+Why: Saves memory and speeds up search.
+How: Works like a trie but with edge-labels (substrings instead of single chars).
+
+10. Ternary Search Tree (TST)
+Logic: Each node stores a character + three children:
+- Left (smaller character)
+- Middle (next character in word)
+- Right (greater character)
+Why: Combines space-efficiency of BSTs with prefix-search of tries.
+How: Words stored by chaining middle pointers.
+
+11. B-Tree
+Logic: A multi-way search tree (not binary). Each node can have multiple keys and children. Used for disk-based storage.
+Why: Reduces disk I/O by keeping tree shallow. Common in databases and filesystems.
+How: When inserting, nodes may split; deletion may borrow/merge keys from neighbors.
+
+12. B+ Tree
+Logic: A variant of B-Tree. Internal nodes store only keys (not values). Values are stored in linked leaf nodes.
+Why: Better for range queries (scan leaves sequentially).
+How: Same as B-Tree for balancing, but leaf nodes are connected via linked list for fast range queries.

@@ -1,0 +1,8 @@
+1. Linear Search
+Time Complexity: O(n)
+Space Complexity: O(1) -> no new space required by algorithm
+
+2. Binary Search -> works only for sorted lists(it's good practice to keep some sort of order in your data if it doesn't have too much cost)
+Time Complexity: O(log(n))
+Space Complexity: O(1) -> no new space required by algorithm
+Note: If implemented recursively, Space complexity will increase to O(log(n))
