@@ -30,7 +30,7 @@ This checklist mirrors the categories and items from the University of San Franc
 - [x] Radix Tree (Compact Trie)
 - [x] Ternary Search Tree (Trie with BST of children)
 - [x] B-Tree
-- [x] B+ Tree
+- [x] B+Tree
 
 ## Sorting
 - [ ] Bubble Sort
