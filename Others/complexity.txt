@@ -1,0 +1,8 @@
+1. Disjoint Sets (Union–Find with path compression + union by rank)
+Time Complexity: Amortized ~O(α(n)) per operation (α is the inverse Ackermann function)
+Space Complexity: O(n)
+
+2. Huffman Coding (prefix code)
+Time Complexity: O(k log k) to build the tree, where k is the number of distinct symbols;
+                 Encoding O(L) and Decoding O(L) where L is number of bits processed
+Space Complexity: O(k) for the tree and code table

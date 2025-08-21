@@ -33,50 +33,50 @@ This checklist mirrors the categories and items from the University of San Franc
 - [x] B+ Tree
 
 ## Sorting
-- [ ] Bubble Sort
-- [ ] Selection Sort
-- [ ] Insertion Sort
-- [ ] Shell Sort
-- [ ] Merge Sort
-- [ ] Quick Sort
-- [ ] Bucket Sort
-- [ ] Counting Sort
-- [ ] Radix Sort
-- [ ] Heap Sort
+- [x] Bubble Sort
+- [x] Selection Sort
+- [x] Insertion Sort
+- [x] Shell Sort
+- [x] Merge Sort
+- [x] Quick Sort
+- [x] Bucket Sort
+- [x] Counting Sort
+- [x] Radix Sort
+- [x] Heap Sort
 
 ## Heap-like Data Structures
-- [ ] Binary Heap (Priority Queue)
-- [ ] Binomial Queue
-- [ ] Fibonacci Heap
-- [ ] Leftist Heap
-- [ ] Skew Heap
+- [x] Binary Heap (Priority Queue)
+- [x] Binomial Queue
+- [x] Fibonacci Heap
+- [x] Leftist Heap
+- [x] Skew Heap
 
 ## Graph Algorithms
-- [ ] Breadth-First Search (BFS)
-- [ ] Depth-First Search (DFS)
-- [ ] Connected Components
-- [ ] Dijkstra’s Shortest Path
-- [ ] Prim’s Minimum Spanning Tree
-- [ ] Topological Sort (Indegree / Kahn’s Algorithm)
-- [ ] Topological Sort (DFS)
-- [ ] Floyd–Warshall (All-Pairs Shortest Paths)
-- [ ] Kruskal’s Minimum Spanning Tree
+- [x] Breadth-First Search (BFS)
+- [x] Depth-First Search (DFS)
+- [x] Connected Components
+- [x] Dijkstra’s Shortest Path
+- [x] Prim’s Minimum Spanning Tree
+- [x] Topological Sort (Indegree / Kahn’s Algorithm)
+- [x] Topological Sort (DFS)
+- [x] Floyd–Warshall (All-Pairs Shortest Paths)
+- [x] Kruskal’s Minimum Spanning Tree
 
 ## Dynamic Programming
-- [ ] Fibonacci — DP
-- [ ] Making Change
-- [ ] Longest Common Subsequence (LCS)
+- [x] Fibonacci — DP
+- [x] Making Change
+- [x] Longest Common Subsequence (LCS)
 
 ## Geometric Algorithms (Transforms)
-- [ ] 2D Rotation & Scale Matrices
-- [ ] 2D Rotation & Translation Matrices
-- [ ] 2D Changing Coordinate Systems
-- [ ] 3D Rotation & Scale Matrices
-- [ ] 3D Changing Coordinate Systems
+- [x] 2D Rotation & Scale Matrices
+- [x] 2D Rotation & Translation Matrices
+- [x] 2D Changing Coordinate Systems
+- [x] 3D Rotation & Scale Matrices
+- [x] 3D Changing Coordinate Systems
 
 ## Others
-- [ ] Disjoint Sets (Union–Find)
-- [ ] Huffman Coding
+- [x] Disjoint Sets (Union–Find)
+- [x] Huffman Coding
 
 ---
 

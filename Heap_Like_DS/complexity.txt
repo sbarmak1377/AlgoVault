@@ -1,0 +1,23 @@
+1. Binary Heap (Priority Queue)
+Time Complexity: insert O(log n), find_min O(1), extract_min O(log n), decrease_key O(log n), delete O(log n)
+Space Complexity: O(n)
+
+2. Binomial Heap (Queue)
+Time Complexity: meld O(log n), insert O(1) amortized (via meld), find_min O(log n) to scan roots, extract_min O(log n), decrease_key O(log n), delete O(log n)
+Space Complexity: O(n)
+Note: Maintains a forest of binomial trees with at most one of each degree.
+
+3. Fibonacci Heap
+Time Complexity: insert O(1) amortized, find_min O(1), merge O(1), extract_min O(log n) amortized, decrease_key O(1) amortized, delete O(log n) amortized
+Space Complexity: O(n)
+Note: Uses lazy consolidation; cutting and cascading cuts give the amortized bounds.
+
+4. Leftist Heap
+Time Complexity: meld O(log n) (by null-path length), insert O(log n) (meld with singleton), find_min O(1), extract_min O(log n)
+Space Complexity: O(n)
+Note: Maintains leftist property (npl(left) >= npl(right)) to keep the right spine short.
+
+5. Skew Heap
+Time Complexity: meld O(log n) amortized, insert O(log n) amortized, find_min O(1), extract_min O(log n) amortized
+Space Complexity: O(n)
+Note: Self-adjusting structure; no explicit ranks; performance is amortized due to child swapping on merges.

@@ -1,0 +1,11 @@
+1. Fibonacci — DP (bottom-up)
+Time Complexity: O(n)
+Space Complexity: O(1)
+
+2. Making Change (Unbounded Coin Change — min coins)
+Time Complexity: O(A * C)  where A=amount, C=number of coin types
+Space Complexity: O(A)
+
+3. Longest Common Subsequence (LCS)
+Time Complexity: O(n * m)
+Space Complexity: O(n * m)   # with full table reconstruction
